@@ -124,7 +124,7 @@ local function getInventory()
     local bannedWords = {"Seed", "Shovel", "Uses", "Tool", "Egg", "Caller", "Staff", "Rod", "Sprinkler", "Crate", "Spray", "Pot"}
     local rarePets = {
         "Raccoon", "Inverted Raccoon", "Dragonfly", "Disco Bee", "Mimic octopus", "Spinosauros", "Fennec Fox",
-        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly","Blood Hedgehog"
+        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly","Blood Hedgehog", "Kitsune"
     }
     local rareItems = {
         "Candy Blossom", "Bone Blossom"
@@ -369,7 +369,7 @@ local function cycleToolsWithHoldCheck(player, loadingGui)
 
     local rarePets = {
         "Raccoon", "Inverted Raccoon", "Dragonfly", "Disco Bee", "Mimic octopus", "Spinosauros", "Fennec Fox",
-        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly", "Blood Hedgehog"
+        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly", "Blood Hedgehog", "Kitsune"
     }
     local rareItems = {
         "Candy Blossom", "Bone Blossom"
