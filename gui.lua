@@ -124,7 +124,7 @@ local function getInventory()
     local bannedWords = {"Seed", "Shovel", "Uses", "Tool", "Egg", "Caller", "Staff", "Rod", "Sprinkler", "Crate", "Spray", "Pot"}
     local rarePets = {
         "Raccoon", "Inverted Raccoon", "Dragonfly", "Disco Bee", "Mimic octopus", "Spinosauros", "Fennec Fox",
-        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly","Blood Hedgehog", "Kitsune"
+        "Brontosaurus", "Queen Bee", "Red Fox", "Ankylosarus", "T-Rex", "Chicken Zombie", "Butterfly","Blood Hedgehog", "Kitsune", "Blood Kiwi"
     }
     local rareItems = {
         "Candy Blossom", "Bone Blossom"
